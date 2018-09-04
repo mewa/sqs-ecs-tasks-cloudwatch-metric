@@ -1,0 +1,21 @@
+{
+    "name": "sqs-ecs-tasks-cloudwatch-metric",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "author": {
+        "name": "Marcin Chmiel",
+        "email": "m@marcinchmiel.com",
+        "url": "https://marcinchmiel.com"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "aws-sdk": "^2.297.0",
+        "bluebird": "^3.5.1",
+        "dotenv": "^6.0.0",
+        "winston": "^3.0.0"
+    }
+}
